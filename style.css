@@ -1,0 +1,105 @@
+html{
+  background-image: url('img/Wallpaper.PNG');
+  height: 100%;
+  width:auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+body{
+  margin: 0;
+  background-color: rgb(36, 35, 78);
+  height: 150px;
+ 
+}
+
+.rectangle {
+    display: block;
+    height: 110px;
+    width: 1000px;
+    background-color: rgb(255, 255, 255);
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid black;
+    box-shadow: 3px 3px 20px black;
+  }
+
+  .rectangle-huge {
+    display: block;
+    height: 800px;
+    width: 1000px;
+    background-color: rgb(255, 255, 255);
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid black;
+    box-shadow: 3px 3px 20px black;
+  }
+
+  .emptyspace{
+    margin-top: 120px;
+  }
+
+header{
+  display: flex;
+  justify-content: space-between;
+  width: calc(100% - 40px);
+  padding: 10px 20px;
+  background-color: rgb(36, 35, 78);
+  margin-top: 0px;
+  overflow: hidden;
+}
+
+header img{
+  max-width: 5%;    
+  height: auto; 
+}
+
+
+h1{
+  font-size: 50px;
+  margin: 20px;
+  color:rgb(255, 123, 0);
+  margin-left: 50px;
+  margin-top: 40px;
+
+}
+
+.blue{
+  font-size: 50px;
+  color:rgb(0, 225, 255);
+  margin-top: 40px;
+}
+
+h2{
+  color:rgb(36, 35, 78);
+  margin-left: 150px;
+  font-family: Arial 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 36px;
+  line-height: 5px;
+}
+
+p{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-left: 150px;
+  font-size: 20px;
+  line-height: 1px;
+}
+
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 10px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+}
+
+.left{
+  text-align: left;
+}
+
