@@ -34,11 +34,19 @@
 
         <div class="veerg tekst">
             <!--Tekstiline sisu siia-->
-            <span>Antud arvude suurimaks ühisteguriks nimetatakse suurimat arvu, millega kõik antud arvud jaguvad.</span>
-            <br><br>
-            <span>Suurime ühisteguri leidmiseks tuleb antud arv lahutada algteguriteks ja leida nende arvude kõikide ühiste algtegurite korrutis. 
+            <p>Antud arvude suurimaks ühisteguriks nimetatakse suurimat arvu, millega kõik antud arvud jaguvad.</p>
+            <p>Suurime ühisteguri leidmiseks tuleb antud arv lahutada algteguriteks ja leida nende arvude kõikide ühiste algtegurite korrutis. 
                 Suurimat ühistegurit kasutatakse murdude taandamisel.
-            </span>
+            </p>
+            <br>
+            <br>
+            <p><b>Suurima ühisteguri leidmine jäägi abil, rekursiivne lahendus</b></p>
+            <p>def syt (a, b):<br />
+                &nbsp &nbsp if b == 0:<br />
+                &nbsp &nbsp &nbsp &nbsp return a<br />
+                &nbsp &nbsp else:<br />
+                &nbsp &nbsp &nbsp &nbsp return syt (b, a%b)<br />
+            print(str(syt(10, 2)))</p>
         </div>
 
 
