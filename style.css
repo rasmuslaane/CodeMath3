@@ -11,7 +11,6 @@ body{
   margin: 0;
   background-color: rgb(36, 35, 78);
   height: 5px;
- 
 }
 
 
@@ -31,7 +30,7 @@ body{
 
   .rectangle-huge {
   display: block;
-  min-height: 600px;
+  min-height: 700px;
   max-width: 1000px;
   width: 60%;
   min-width: 400px;
@@ -81,34 +80,34 @@ body{
 header{
   display: flex;
   justify-content: space-between;
-  width: calc(100% - 40px);
-  padding: 10px 20px;
+  width: auto;
+  padding: 10px;
   background-color: rgb(36, 35, 78);
   margin-top: 0px;
   overflow: hidden;
 }
 
 header img{
-  max-width: 5%;    
+  max-width: 10%;    
   height: auto; 
 }
 
 
 h1{
-  font-size: 40px;
+  font-size: 20px;
   margin: 20px;
   color:rgb(255, 123, 0);
-  margin-left: 50px;
-  margin-top: 40px;
+  margin-left: 20px;
+  margin-top: 20px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-weight: 10;
 
 }
 
 .blue{
-  font-size: 40px;
+  font-size: 20px;
   color:rgb(0, 225, 255);
-  margin-top: 40px;
+  margin-top: 20px;
 }
 
 h2{
@@ -334,11 +333,45 @@ a:link{
 }
 
 .esimenetulp{
-  padding-left: 10%;
+  padding-left: 1%;
   width: 92%;
   }
 
 .teinetulp{
   justify-content: center;
+}
+
+.teinetulp{
+  justify-content: center;
+}
+
+
+@media only screen and (min-width: 950px) {
+  h1{
+    font-size: 40px;
+    margin-left: 50px;
+    margin-top: 40px;
+  }
+
+  .blue{
+    font-size: 40px;
+    margin-top: 40px;
+  }
+
+  header{
+    display: flex;
+    justify-content: space-between;
+    width: calc(100% - 40px);
+    padding: 10px 20px;
+    background-color: rgb(36, 35, 78);
+    margin-top: 0px;
+    overflow: hidden;
+  }
+
+  header img{
+    max-width: 5%;    
+    height: auto; 
+  }
+
 }
 
