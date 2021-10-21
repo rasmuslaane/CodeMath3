@@ -16,67 +16,67 @@ body{
 
 
 .rectangle {
-    display: block;
-    min-height: 110px;
-    max-width: 1000px;
+  display: block;
+  min-height: 110px;
+  max-width: 1000px;
   min-width: 400px;
   width: 60%;
-    background-color: rgb(255, 255, 255);
-    margin-top: 20px;
-    margin-left: auto;
-    margin-right: auto;
-    border: 1px solid black;
-    box-shadow: 3px 3px 20px black;
-  }
+  background-color: rgb(255, 255, 255);
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid black;
+  box-shadow: 3px 3px 20px black;
+}
 
   .rectangle-huge {
-    display: block;
-    min-height: 600px;
-    max-width: 1000px;
-    width: 60%;
-    min-width: 400px;
-    background-color: rgb(255, 255, 255);
-    margin-top: 20px;
-    margin-left: auto;
-    margin-right: auto;
-    border: 1px solid black;
-    box-shadow: 3px 3px 20px black;
-    padding: 15px 15px;
-  }
+  display: block;
+  min-height: 600px;
+  max-width: 1000px;
+  width: 60%;
+  min-width: 400px;
+  background-color: rgb(255, 255, 255);
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid black;
+  box-shadow: 3px 3px 20px black;
+  padding: 15px 15px;
+}
 
-  .veerg{
-    float: left;
-    padding: 10px;
-  }
+.veerg{
+  float: right;
+  padding: 10px;
+}
 
-  .pilt{
-    width: 30%;
-    margin:auto;
-  }
+.pilt{
+  width: 30%;
+  margin:auto;
+}
 
-  .tekst{
-    width: 60%;
-    text-align: justify;
-    text-justify: inter-word;
-  }
+.tekst{
+  width: 60%;
+  text-align: justify;
+  text-justify: inter-word;
+}
 
-  .sisu{
-    margin:auto;
-    column-count: 3;
-    column-gap: 15px;
-    text-align: justify;
-    text-justify: inter-word;
-  }
-  .pilt img{
-    max-width: 200px;
-    display: block;
-    margin: auto;
+.sisu{
+  margin:auto;
+  column-count: 3;
+  column-gap: 15px;
+  text-align: justify;
+  text-justify: inter-word;
+}
+.pilt img{
+  max-width: 200px;
+  display: block;
+  margin: auto;
 
-  }
+}
 
-  .emptyspace{
-    margin-top: 80px;
-  }
+.emptyspace{
+  margin-top: 80px;
+}
 
 header{
   display: flex;
@@ -112,10 +112,11 @@ h1{
 }
 
 h2{
-  color:black;
+  color:rgb(36, 35, 78);
   margin-left: 20px;
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  font-size: 30px;
+  font-size: 36px;
+  line-height: 5px;
 
   font-weight: 10;
 }
@@ -129,16 +130,17 @@ h3{
 }
 
 a{
-  color:orange;
-  font-size: 20px;
+  color:rgb(255, 255, 255);
+  font-size: 36px;
 }
 
 p{
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   margin-left: 20px;
-  font-size: 16px;
+  font-size: 18px;
   color: black;
   font-weight: 1;
+  
 }
 
 ul{
@@ -171,27 +173,6 @@ ul li{
   font-size: 16px;
 }
 
-.button-red {
-  background-color: red;
-  cursor: pointer;
-  border-radius: 35px;
-  margin-top: 40px;
-  margin-bottom: 20px;
-  padding: 2px 70px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-}
-
-.button:hover {
-  background-color: orange;
-}
-
-a:hover{
-  color:white;
-  font-size: 20px;
-}
 
 .left{
   text-align: left;
@@ -201,18 +182,19 @@ a:link{
   text-decoration: none;
 }
 
- .nupuklass{
-   text-align: center;
-   vertical-align: center;
-   white-space: nowrap;
-   color: orange;
-   border: 3px solid orange;
-   padding: 10px 5px;
-   margin:10px;
-
-   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-   font-weight: 1;
- }
+.nupuklass{
+  text-align: center;
+  vertical-align: center;
+  white-space: nowrap;
+  color: orange;
+  border: 3px solid orange;
+  padding: 5px 5px;
+  margin:30px;
+   
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 32px;
+  font-weight: 1;
+}
 
 .nupuklass:hover{
   text-align: center;
@@ -222,6 +204,133 @@ a:link{
   color: white;
   border: 3px solid orange;
 
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 32px;
+  font-weight: 1;
+}
+
+.nupuklass2{
+  text-align: center;
+  vertical-align: center;
+  white-space: nowrap;
+  color: rgb(0, 179, 250);
+  border: 3px solid rgb(0, 179, 250);
+  padding: 5px 5px;
+  margin:30px;
+   
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 32px;
+  font-weight: 1;
+}
+
+.nupuklass2:hover{
+  text-align: center;
+  vertical-align: center;
+  white-space: nowrap;
+  background-color: rgb(0, 179, 250);
+  color: white;
+  border: 3px solid rgb(0, 179, 250);
+
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 32px;
+  font-weight: 1;
+}
+
+.nupuklass3{
+  text-align: center;
+  vertical-align: center;
+  white-space: nowrap;
+  color: rgb(153, 0, 255);
+  border: 3px solid rgb(153, 0, 255);
+  padding: 5px 5px;
+  margin:30px;
+   
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 32px;
+  font-weight: 1;
+}
+
+.nupuklass3:hover{
+  text-align: center;
+  vertical-align: center;
+  white-space: nowrap;
+  background-color: rgb(153, 0, 255);
+  color: white;
+  border: 3px solid rgb(153, 0, 255);
+
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 32px;
+  font-weight: 1;
+}
+
+.nupuklass4{
+  text-align: center;
+  vertical-align: center;
+  white-space: nowrap;
+  color: rgb(255, 0, 234);
+  border: 3px solid rgb(255, 0, 234);
+  padding: 5px 5px;
+  margin:30px;
+   
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 32px;
+  font-weight: 1;
+}
+
+.nupuklass4:hover{
+  text-align: center;
+  vertical-align: center;
+  white-space: nowrap;
+  background-color: rgb(255, 0, 234);
+  color: white;
+  border: 3px solid rgb(255, 0, 234);
+
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 32px;
+  font-weight: 1;
+}
+
+.nupuklass5{
+  text-align: center;
+  vertical-align: center;
+  white-space: nowrap;
+  color: rgb(0, 158, 8);
+  border: 3px solid rgb(0, 158, 8);
+  padding: 5px 5px;
+  margin:30px;
+   
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 32px;
+  font-weight: 1;
+}
+
+.nupuklass5:hover{
+  text-align: center;
+  vertical-align: center;
+  white-space: nowrap;
+  background-color: rgb(0, 158, 8);
+  color: white;
+  border: 3px solid rgb(0, 158, 8);
+
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 32px;
+  font-weight: 1;
+}
+
+.nupuklass-punane{
+  text-align: center;
+  vertical-align: center;
+  white-space: nowrap;
+  background-color: rgb(235, 49, 89);
+  color: white;
+  border: 3px solid rgb(235, 49, 89);
+  border-radius: 35px;
+  padding: 5px 30px;
+  margin:30px;
+   
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 32px;
+  font-weight: 1;
 }
 
 .esimenetulp{
@@ -230,7 +339,6 @@ a:link{
   }
 
 .teinetulp{
-
   justify-content: center;
 }
 
