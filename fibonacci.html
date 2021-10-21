@@ -27,21 +27,37 @@
         <!-- Pealkiri siia-->
         <h3>Fibonacci arvud ehk Fibonacci jada</h3>
 
-        <!--Pildid vasakus tulbas siia-->
+        <!--Pildid paremas tulbas siia-->
         <div class="veerg pilt">
             <img src="img/Fibonacci.PNG" alt="">
         </div>
 
         <div class="veerg tekst">
             <!--Tekstiline sisu siia-->
-            <span>Fibonacci jada on mittenegatiivsete täisarvude jada, kus kaks esimest liiget on vastavalt 0 ja 1 ning alates kolmandast
+            <p>Fibonacci jada on mittenegatiivsete täisarvude jada, kus kaks esimest liiget on vastavalt 0 ja 1 ning alates kolmandast
                 liikmest on iga järgmine liige võrdne kahe eelneva liikme summaga.
-            </span>
-            <br><br>
-            <span>Esimesed Fibonacci arvud on: 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233, 377, 610, 987, ...</span>
-            <br><br>
-            <span> Fibonacci jada kujunemise algoritm</span>
+            </p>
+        
+            <p>Esimesed Fibonacci arvud on: 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233, 377, 610, 987, ...</p>
+            
+            <p> Fibonacci jada kujunemise algoritm:</p>
             <img src="img/Fibonacci_algoritm.PNG">
+            <br>
+            <br>
+            <p>def Fibonacci(n):<br />
+                &nbsp &nbsp if n &#60; 0:<br />
+                &nbsp &nbsp &nbsp &nbsp print("Vale sisend, sisesta mittenegatiivne arv!"<br />
+                &nbsp &nbsp #Esimene Fibonacci arv on 0<br />
+                &nbsp &nbsp elif n == 0:<br />
+                &nbsp &nbsp &nbsp &nbsp return 0<br />
+                &nbsp &nbsp #Teine Fibonacci arv on 1<br />
+                &nbsp &nbsp elif n == 1:<br />
+                &nbsp &nbsp &nbsp &nbsp return 1<br />
+                &nbsp &nbsp else:<br />
+                &nbsp &nbsp &nbsp &nbsp return Fibonacci (n-1)+Fibonacci (n-2)<br />
+                #Käivitame programmi ja väljastame 6nda liikme jadas<br />
+                print(Fibonacci(6))
+            </p>
         </div>
 
 
