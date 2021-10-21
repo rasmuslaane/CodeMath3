@@ -27,24 +27,31 @@
         <!-- Pealkiri siia-->
         <h3>Faktoriaal</h3>
 
-        <!--Pildid vasakus tulbas siia-->
+        <!--Pildid paremas tulbas siia-->
         <div class="veerg pilt">
             <img src="img/Faktoriaal.PNG" alt="">
         </div>
 
         <div class="veerg tekst">
             <!--Tekstiline sisu siia-->
-            <span>Faktoriaali definitsiooni järgi on 0! = 1. Iga teise naturaalarvu puhul on n! võrdne arvude 1 ... n korrutisega.</span>
-            <br><br>
-            <span>Näiteks:</span>
+            <p>Faktoriaali definitsiooni järgi on 0! = 1. Iga teise naturaalarvu puhul on n! võrdne arvude 1 ... n korrutisega.</p>
+    
+            <p>Näiteks:</p>
             <ul>
                 <li>3! = 1 x 2 x 3</li>
                 <li>4! = 1 x 2 x 3 x 4 x 5</li>
             </ul>
-            <br><br>
-            <span>Nagu näha, on 4! arvutus väga sarnane 3! arvutusele - selleks, et arvutada 4! võiksime me arvutada 3! ja korrutada
+            
+            <p>Nagu näha, on 4! arvutus väga sarnane 3! arvutusele - selleks, et arvutada 4! võiksime me arvutada 3! ja korrutada
                 saadud tulemuse 4-ga. Seda asjaolu arvestades on kirjutatud järgnev rekursiivne faktoriaali definitsioon:
-            </span>
+            </p>
+            <br>
+            <br>
+            <p>def fact(n):<br />
+                &nbsp &nbsp if n == 0:<br />
+                &nbsp &nbsp &nbsp &nbsp return 1<br />
+                &nbsp &nbsp else:<br />
+                &nbsp &nbsp &nbsp &nbsp return fact (n-1)*n<br /></p>
         </div>
 
 
