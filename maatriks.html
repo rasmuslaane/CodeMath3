@@ -27,21 +27,30 @@
         <!-- Pealkiri siia-->
         <h3>Maatriksite korrutamine</h3>
 
-        <!--Pildid vasakus tulbas siia-->
+        <!--Pildid paremas tulbas siia-->
         <div class="veerg pilt">
             <img src="img/Maatriks.PNG" alt="">
         </div>
 
         <div class="veerg tekst">
             <!--Tekstiline sisu siia-->
-            <span>Korrutada saab ainult selliseid maatrikseid, millest esimese veergude arv võrdub teise ridade arvuga.</span>
-            <br><br>
-            <span>Omadused:</span>
+            <p>Korrutada saab ainult selliseid maatrikseid, millest esimese veergude arv võrdub teise ridade arvuga.</p>
+            
+            <p>Omadused:</p>
             <ul>
                 <li>Korrutises on sama palju ridu, kui esimeses maatriksis ja sama palju tulpi, kui teises maatriksis</li>
                 <li>Maatriksite korrutamine ei ole kommutatiivne</li>
                 <li>Maatriksite korrutise iga lahtri väärtus leitakse esimese teguri vastava rea ja teise teguri vastava veeru kaudu</li>
             </ul>
+            <br>
+            <br>
+            <p><b>import numpy as np</b></p>
+            
+            <p><b>A = np.array ([[1,2], [3,4], [5,6]])<br />
+                B = np.array ([[1,2,3,3], [3,4,5,7]])</b></p>
+            
+            <p><b>print(np.dot(A, B))</b></p>
+                
         </div>
 
 
